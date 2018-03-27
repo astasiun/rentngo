@@ -1,0 +1,299 @@
+#main-nav {
+    color: #FFF;
+}
+
+.navbar {
+    height: 132px;
+    background-color: #dceaf6;
+}
+
+.after-fix {
+    background-color: #dceaf6;
+    transition: all 0.4s;
+    opacity: 0.8;
+}
+
+.navbar-brand {
+    color: #000;
+    transition: all 0.4s;
+    margin-top: 82px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+.navlink a {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 8px;
+    border-radius: 8%;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.navlink a:hover {
+    color: #FFF;
+    background-color: #000;
+    transition: all 0.8s;
+}
+
+#ceny {
+    padding-right: 10px;
+}
+
+.lista {
+    color: #000 !important;
+}
+
+#navbarNavDropdown {
+    margin-top: 82px;
+}
+
+.dropdown {
+    left: 211%;
+}
+
+.dropdown-item {
+    width: 65%;
+    text-align: center;
+}
+
+.dropdown-menu.show {
+    display: block;
+    margin-top: 3px;
+    background-color: #dceaf6;
+}
+
+/* NAVBAR STOP*/
+
+/* HEADER */
+
+.background1 {
+    background: url(../IMG/1920.jpg);
+    height: 766px;
+    width: 1900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background2 {
+    background: url(../IMG/1920.jpg);
+    height: 766px;
+    width: 1900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background3 {
+    background: url(../IMG/1920.jpg);
+    height: 766px;
+    width: 1900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+.headerheader {
+    color: #FFF;
+    margin-top: 27%;
+}
+
+/* HEADER STOP */
+
+/*MAIN CONTENT1 */
+
+.maincontent {
+    height: 580px;
+    background-color: #FFF;
+}
+
+.mapka {
+    margin-left: 15px;
+}
+
+.tekscik {
+    position: absolute;
+    width: 446px;
+    text-align: center;
+    margin: 38px 0px 0 842px;
+    font-size: 1.4rem;
+}
+
+.header2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* MAINCONTENT2 */
+
+.maincontent2 {
+    height: 700px;
+    background-color: #FFF;
+}
+
+/* KARUZELA */
+
+#carouselExampleIndicators {
+    height: 700px;
+}
+
+#carouselExampleIndicators .carousel-inner {
+    height: 100%;
+}
+
+#carousel-1 {
+    background-image: url(../IMG/2672.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carousel-2 {
+    background-image: url(../IMG/OIUG7Q0.jpg);
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carousel-3 {
+    background-image: url(../IMG/79758-OGI6A2-334.jpg);
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* KARULEZA STOP */
+
+#rentable {
+    height: 150px;
+    border-radius: 4%;
+    margin-top: 15px;
+}
+
+#rentable:hover {
+    height: 300px;
+    transition: all 0.4s;
+}
+
+/* FOOTER */
+
+.maincontent3 {
+    height: 550px;
+    background-color: #dceaf6;
+}
+
+.maincontent3 h2 {
+	font-size: 50px;
+}
+
+.headmaincontent3 {
+    margin-top: 5rem;
+    font-family: 'Kanit', sans-serif;
+/*    font-size: 3.4rem;*/
+}
+
+.socialmedia {
+    height: 70px;
+    padding: 26px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    line-height: 48px !important;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    background: #dceaf6;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px !important;
+    transition: all .4s;
+    margin-left: 22px;
+}
+
+.social:hover {
+    color: #dceaf6;
+    background: #000;
+    transform: rotate(180deg);
+}
+
+.footerlinks {
+    margin-top: 93px;
+    height: 150px;
+    background-color: #dceaf6;
+}
+
+.footerlinks li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+}
+
+.footerlinks li,
+a:hover {
+    color: #000;
+    text-decoration: underline;
+    transition: all 0.4s;
+}
+
+#payments {
+	position: relative;
+    display: inline-block;
+}
+
+#lista1, lista2 {
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    color: #88a0b4;
+}
+
+#lista2 {
+    margin-left: 60px;
+}
+
+.form-group label {
+    display: inline;
+}
+
+.formularz {
+    background-color: #dceaf6;
+}
+
+#wyslij {
+    border: 1px solid black;
+    border-radius: 8%;
+    color: #000;
+    background-color: #dceaf6;
+    margin-left: 50px;
+    margin: 4px 0px 0px 192px;
+}
+
+#wyslij:hover {
+    color: #FFF;
+    background-color: #000;
+    transition: all 0.4s;
+    
+}
+
+#footer {
+    height: 40px;
+}
