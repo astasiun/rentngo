@@ -8,12 +8,10 @@ $(window).scroll(function () {
 });
 
 function getDate() {
-    var today = new Date();
-    var year = getFullYear();
-    $('#footer').HTML("<p>Copyright &copy Adam Stasiun</p>" + year);
-//    var rok = getElementById('#footer');
-//    rok.innerHTML('<p>Copyright &copy</p>' + year + '<p>Adam Stasiun</p>')
+    var year = (new Date()).getFullYear()
+    $('#footer').append('<p>Copyright &copy; ' + year + ' Adam Stasiun </p>');
 }
+
 
 $('.carousel').carousel({
   interval: 2000
