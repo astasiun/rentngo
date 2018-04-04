@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+
+#main-nav {
+    color: #FFF;
+}
+
+.navbar {
+    height: 132px;
+    background-color: #dceaf6;
+}
+
+.after-fix {
+    background-color: #dceaf6;
+    transition: all 0.4s;
+    opacity: 0.8;
+}
+
+.navbar-brand {
+    color: #000;
+    transition: all 0.4s;
+    margin-top: 82px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+.navlink a {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 8px;
+    border-radius: 8%;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.navlink a:hover {
+    color: #FFF;
+    background-color: #000;
+    transition: all 0.8s;
+}
+
+#ceny {
+    padding-right: 10px;
+}
+
+.lista {
+    color: #000 !important;
+}
+
+#navbarNavDropdown {
+    margin-top: 82px;
+}
+
+.dropdown {
+    left: 211%;
+}
+
+.dropdown-item {
+    width: 65%;
+    text-align: center;
+}
+
+.dropdown-menu.show {
+    display: block;
+    margin-top: 3px;
+    background-color: #dceaf6;
+}
+
+#mainheader {
+    padding-top: 10%;
+    color: #000;
+    height: 40px;
+}
+
+.q1 {
+    padding-top: 60px;
+    color: lightgray;
+}
+
+#qoneanswer {
+    width: 550px;
+    margin-left: 31%;
+    visibility: hidden;
+}
